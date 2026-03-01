@@ -11,6 +11,7 @@ export default defineConfig({
         tailwindcss(),
     ],
     server: {
+        host: '127.0.0.1', // This forces standard localhost routing instead of [::1]
         watch: {
             ignored: ['**/storage/framework/views/**'],
         },
