@@ -1,16 +1,18 @@
 <nav x-data="{ mobileMenuOpen: false }" class="sticky top-0 w-full z-50 bg-brand-white shadow-md border-b border-gray-200">
     <div class="max-w-[1600px] w-full mx-auto px-4 sm:px-6 lg:px-12 xl:px-20">
-        <div class="flex justify-between items-center h-28">
+        
+        <div class="flex justify-between items-center h-20 lg:h-28">
             
-            <div class="flex-shrink-0 flex items-center">
+            <div class="flex-shrink-0 flex items-center overflow-hidden">
                 <a href="/" class="flex items-center gap-3 sm:gap-4 group">
-                    <img class="h-16 sm:h-20 w-auto drop-shadow-sm transition-transform duration-300 group-hover:scale-105" src="{{ asset('images/main-logo.png') }}" alt="Jain Agro Industries Logo Mark">
                     
-                    <div class="flex flex-col justify-center border-l-2 border-brand-gold/30 pl-3 sm:pl-4">
-                        <span class="font-serif font-bold text-brand-charcoal text-xl sm:text-2xl lg:text-3xl tracking-wider leading-none">
+                    <img class="h-14 sm:h-16 lg:h-20 w-auto drop-shadow-sm transition-transform duration-300 group-hover:scale-105" src="{{ asset('images/main-logo.png') }}" alt="Jain Agro Industries Logo Mark">
+                    
+                    <div class="flex flex-col justify-center border-l-2 border-brand-gold/30 pl-3 lg:pl-4">
+                        <span class="font-serif font-bold text-brand-charcoal text-lg sm:text-2xl lg:text-3xl tracking-wide lg:tracking-wider leading-none whitespace-nowrap">
                             JAIN AGRO INDUSTRIES
                         </span>
-                        <span class="font-sans font-bold text-brand-gold text-xs sm:text-sm uppercase tracking-[0.25em] mt-1.5 sm:mt-2">
+                        <span class="font-sans font-bold text-brand-gold text-[10px] sm:text-xs lg:text-sm uppercase tracking-[0.2em] lg:tracking-[0.25em] mt-1 lg:mt-2">
                             Since 1981
                         </span>
                     </div>
@@ -43,9 +45,9 @@
                 </a>
             </div>
 
-            <div class="flex items-center xl:hidden">
+            <div class="flex items-center xl:hidden pl-2">
                 <button @click="mobileMenuOpen = !mobileMenuOpen" type="button" class="text-brand-charcoal hover:text-brand-green focus:outline-none">
-                    <svg class="h-9 w-9" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg class="h-8 w-8 sm:h-9 sm:w-9" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path x-show="!mobileMenuOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                         <path x-show="mobileMenuOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" style="display: none;" />
                     </svg>

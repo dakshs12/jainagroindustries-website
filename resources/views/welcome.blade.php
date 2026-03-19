@@ -1,47 +1,49 @@
 <x-layouts.app>
-    <section class="relative h-[calc(100vh-112px)] w-full">
+    <section class="relative w-full aspect-[4/3] sm:aspect-video md:aspect-auto md:h-[calc(100vh-112px)] flex flex-col items-center justify-center bg-[#111] overflow-hidden">
         
-        <div class="swiper heroSwiper h-full w-full">
-            <div class="swiper-wrapper">
-                
-                <div class="swiper-slide relative">
-                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=1920&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover" alt="Agricultural Fields">
-                    <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
-                </div>
+        <div class="absolute inset-0 w-full h-full z-0">
+            <div class="swiper heroSwiper h-full w-full">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide relative">
+                        <img src="{{ asset('images/slider1.png') }}" class="absolute inset-0 w-full h-full object-cover object-center" alt="Jain Agro Industries">
+                        <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
+                    </div>
 
-                <div class="swiper-slide relative">
-                    <img src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?q=80&w=1920&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover" alt="Industrial Processing">
-                    <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
-                </div>
+                    <div class="swiper-slide relative">
+                        <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover object-center">
+                            <source src="{{ asset('images/ship.MP4') }}" type="video/mp4">
+                        </video>
+                        <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
+                    </div>
 
-                <div class="swiper-slide relative">
-                    <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1920&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover" alt="Grains and Pulses">
-                    <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
                 </div>
-
             </div>
         </div>
 
-        <div class="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 pointer-events-none">
-            <h1 class="text-white font-serif text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 drop-shadow-lg">
+        <div class="relative z-10 flex flex-col items-center justify-center text-center px-4 w-full h-full pointer-events-none">
+            
+            <h1 class="text-white font-serif text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-2 md:mb-6 drop-shadow-lg leading-tight">
                 Indian Origin. <br class="md:hidden"> Global Standards.
             </h1>
-            <p class="mt-4 text-xl text-gray-200 font-sans max-w-3xl drop-shadow-md mb-10">
+            
+            <p class="mt-1 md:mt-4 text-xs sm:text-base md:text-xl text-gray-200 font-sans max-w-3xl drop-shadow-md mb-4 md:mb-10 px-2 line-clamp-2 md:line-clamp-none">
                 A heritage agricultural enterprise delivering premium pulses, grains, and industrial processing since 1981.
             </p>
             
-            <div class="flex flex-col sm:flex-row gap-4 pointer-events-auto">
-                <a href="/products" class="bg-brand-green text-white px-8 py-3.5 rounded-md font-sans font-medium hover:bg-brand-gold transition-all duration-300 shadow-lg text-lg">
+            <div class="flex flex-row gap-3 md:gap-4 pointer-events-auto">
+                <a href="/products" class="bg-brand-green text-white px-4 py-2 md:px-8 md:py-3.5 rounded-md font-sans font-medium hover:bg-brand-gold transition-all duration-300 shadow-lg text-xs md:text-lg">
                     Explore Products
                 </a>
-                <a href="/contact" class="bg-transparent border-2 border-white text-white px-8 py-3.5 rounded-md font-sans font-medium hover:bg-white hover:text-brand-charcoal transition-all duration-300 shadow-lg text-lg">
+                <a href="/contact" class="bg-transparent border border-white md:border-2 text-white px-4 py-2 md:px-8 md:py-3.5 rounded-md font-sans font-medium hover:bg-white hover:text-brand-charcoal transition-all duration-300 shadow-lg text-xs md:text-lg">
                     Get a Quote
                 </a>
             </div>
+            
         </div>
     </section>
 
-    <section class="relative py-24 md:py-32 bg-brand-white overflow-hidden">
+    <section class="relative py-24 md:py-32 bg-[#FCF8F2] overflow-hidden">
         
         <div class="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
             <img src="{{ asset('images/main-logo.png') }}" class="w-[80%] md:w-[500px] opacity-[0.03] select-none" alt="">
@@ -78,10 +80,10 @@
         </div>
     </section>
 
-    <section class="py-16 md:py-24 bg-gray-50 border-y border-gray-100 overflow-hidden">
+    <section class="py-16 md:py-24 bg-[#FCF8F2] border-y border-[#F0EBE1] overflow-hidden">
         
         <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 mb-16 text-center">
-            <h3 class="font-serif text-3xl md:text-4xl font-bold text-brand-charcoal tracking-wide">Our Subsidiaries</h3>
+            <h3 class="font-serif text-3xl md:text-4xl font-bold text-brand-charcoal tracking-wide">Our Business Units</h3>
             <div class="w-16 h-1 bg-brand-gold mx-auto mt-5 rounded-full opacity-90"></div>
         </div>
         
@@ -116,104 +118,70 @@
         </div>
     </section>
 
-    <section class="py-24 bg-brand-white">
-        <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <div class="text-center mb-16">
-                <h3 class="font-serif text-3xl md:text-4xl font-bold text-brand-charcoal tracking-wide mb-4">
-                    Key <span class="text-brand-gold">Features</span>
-                </h3>
+    <section class="w-full py-12 md:py-24 bg-[#FCF8F2]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+            <div class="text-center mb-8 md:mb-16">
+                <h2 class="text-3xl md:text-5xl font-serif font-bold text-[#1A2F24]">
+                    Key <span class="text-[#D4AF37]">Features</span>
+                </h2>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-                
-                <div class="feature-card group bg-white p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-1.5 transition-all duration-300 relative overflow-hidden text-center flex flex-col items-center justify-center min-h-[260px]">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-brand-green scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-                    <div class="w-14 h-14 rounded-full bg-brand-gold/10 flex items-center justify-center mb-5 text-brand-gold group-hover:scale-110 transition-transform duration-300">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-8">
+            
+                <div class="bg-white p-4 md:p-8 rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-gray-50 flex flex-col items-center text-center group hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)] transition-all duration-300">
+                    <div class="w-10 h-10 md:w-16 md:h-16 rounded-full bg-[#D4AF37]/10 flex items-center justify-center mb-3 md:mb-6 text-[#D4AF37] group-hover:scale-110 transition-transform">
+                        <svg class="w-5 h-5 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>
                     </div>
-                    <h4 class="font-serif font-bold text-xl text-brand-charcoal mb-3 tracking-tight">40+ Years Legacy</h4>
-                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70 leading-relaxed px-2">Decades of expertise and experience in pulse manufacturing since 1981.</p>
+                    <h3 class="text-sm md:text-xl font-serif font-bold text-[#1A2F24] mb-1 md:mb-3 leading-tight">6 Key Hubs</h3>
+                    <p class="text-[10px] md:text-sm text-gray-500 font-sans leading-snug md:leading-relaxed">Procurement locations across the fertile Malwa–Nimar Region.</p>
                 </div>
 
-                <div class="feature-card group bg-white p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-1.5 transition-all duration-300 relative overflow-hidden text-center flex flex-col items-center justify-center min-h-[260px]">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-brand-green scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-                    <div class="w-14 h-14 rounded-full bg-brand-gold/10 flex items-center justify-center mb-5 text-brand-gold group-hover:scale-110 transition-transform duration-300">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                <div class="bg-white p-4 md:p-8 rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-gray-50 flex flex-col items-center text-center group hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)] transition-all duration-300">
+                    <div class="w-10 h-10 md:w-16 md:h-16 rounded-full bg-[#D4AF37]/10 flex items-center justify-center mb-3 md:mb-6 text-[#D4AF37] group-hover:scale-110 transition-transform">
+                        <svg class="w-5 h-5 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M11.636 21.05a10.998 10.998 0 004.29-10.428A10.99 10.99 0 0015.346 3h-4.692A10.99 10.99 0 004.29 10.622a10.998 10.998 0 004.29 10.428" /><path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8" /></svg>
                     </div>
-                    <h4 class="font-serif font-bold text-xl text-brand-charcoal mb-3 tracking-tight">Family Business</h4>
-                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70 leading-relaxed px-2">Second generation of dynamic and youthful management.</p>
+                    <h3 class="text-sm md:text-xl font-serif font-bold text-[#1A2F24] mb-1 md:mb-3 leading-tight">Direct Sourcing</h3>
+                    <p class="text-[10px] md:text-sm text-gray-500 font-sans leading-snug md:leading-relaxed">A strong, direct farm sourcing network ensuring traceability.</p>
                 </div>
 
-                <div class="feature-card group bg-white p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-1.5 transition-all duration-300 relative overflow-hidden text-center flex flex-col items-center justify-center min-h-[260px]">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-brand-green scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-                    <div class="w-14 h-14 rounded-full bg-brand-gold/10 flex items-center justify-center mb-5 text-brand-gold group-hover:scale-110 transition-transform duration-300">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                <div class="bg-white p-4 md:p-8 rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-gray-50 flex flex-col items-center text-center group hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)] transition-all duration-300">
+                    <div class="w-10 h-10 md:w-16 md:h-16 rounded-full bg-[#D4AF37]/10 flex items-center justify-center mb-3 md:mb-6 text-[#D4AF37] group-hover:scale-110 transition-transform">
+                        <svg class="w-5 h-5 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 011.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 01-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71-.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 01-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 01.12-1.45l.773-.773a1.125 1.125 0 011.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
                     </div>
-                    <h4 class="font-serif font-bold text-xl text-brand-charcoal mb-3 tracking-tight">Global Presence</h4>
-                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70 leading-relaxed px-2">Exporting quality products to 12+ countries worldwide.</p>
+                    <h3 class="text-sm md:text-xl font-serif font-bold text-[#1A2F24] mb-1 md:mb-3 leading-tight">In-House Sortex</h3>
+                    <p class="text-[10px] md:text-sm text-gray-500 font-sans leading-snug md:leading-relaxed">Advanced in-house sortex processing for unmatched purity.</p>
                 </div>
 
-                <div class="feature-card group bg-white p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-1.5 transition-all duration-300 relative overflow-hidden text-center flex flex-col items-center justify-center min-h-[260px]">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-brand-green scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-                    <div class="w-14 h-14 rounded-full bg-brand-gold/10 flex items-center justify-center mb-5 text-brand-gold group-hover:scale-110 transition-transform duration-300">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>
+                <div class="bg-white p-4 md:p-8 rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-gray-50 flex flex-col items-center text-center group hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)] transition-all duration-300">
+                    <div class="w-10 h-10 md:w-16 md:h-16 rounded-full bg-[#D4AF37]/10 flex items-center justify-center mb-3 md:mb-6 text-[#D4AF37] group-hover:scale-110 transition-transform">
+                        <svg class="w-5 h-5 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
                     </div>
-                    <h4 class="font-serif font-bold text-xl text-brand-charcoal mb-3 tracking-tight">Natural Products</h4>
-                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70 leading-relaxed px-2">No added colors or flavors - always fresh and pure.</p>
+                    <h3 class="text-sm md:text-xl font-serif font-bold text-[#1A2F24] mb-1 md:mb-3 leading-tight">700 MT / Day</h3>
+                    <p class="text-[10px] md:text-sm text-gray-500 font-sans leading-snug md:leading-relaxed">High-volume precision grading with strict uniformity.</p>
                 </div>
 
-                <div class="feature-card group bg-white p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-1.5 transition-all duration-300 relative overflow-hidden text-center flex flex-col items-center justify-center min-h-[260px]">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-brand-green scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-                    <div class="w-14 h-14 rounded-full bg-brand-gold/10 flex items-center justify-center mb-5 text-brand-gold group-hover:scale-110 transition-transform duration-300">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" /></svg>
+                <div class="bg-white p-4 md:p-8 rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-gray-50 flex flex-col items-center text-center group hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)] transition-all duration-300">
+                    <div class="w-10 h-10 md:w-16 md:h-16 rounded-full bg-[#D4AF37]/10 flex items-center justify-center mb-3 md:mb-6 text-[#D4AF37] group-hover:scale-110 transition-transform">
+                        <svg class="w-5 h-5 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" /></svg>
                     </div>
-                    <h4 class="font-serif font-bold text-xl text-brand-charcoal mb-3 tracking-tight">Certified Processing</h4>
-                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70 leading-relaxed px-2">In house container stuffing for faster, secure and hassle free shipments.</p>
+                    <h3 class="text-sm md:text-xl font-serif font-bold text-[#1A2F24] mb-1 md:mb-3 leading-tight">Infrastructure</h3>
+                    <p class="text-[10px] md:text-sm text-gray-500 font-sans leading-snug md:leading-relaxed">20,000 MT Cold Storage & 10,000 MT Warehousing capacity.</p>
                 </div>
 
-                <div class="feature-card group bg-white p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-1.5 transition-all duration-300 relative overflow-hidden text-center flex flex-col items-center justify-center min-h-[260px]">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-brand-green scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-                    <div class="w-14 h-14 rounded-full bg-brand-gold/10 flex items-center justify-center mb-5 text-brand-gold group-hover:scale-110 transition-transform duration-300">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+                <div class="bg-white p-4 md:p-8 rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-gray-50 flex flex-col items-center text-center group hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)] transition-all duration-300">
+                    <div class="w-10 h-10 md:w-16 md:h-16 rounded-full bg-[#D4AF37]/10 flex items-center justify-center mb-3 md:mb-6 text-[#D4AF37] group-hover:scale-110 transition-transform">
+                        <svg class="w-5 h-5 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" /></svg>
                     </div>
-                    <h4 class="font-serif font-bold text-xl text-brand-charcoal mb-3 tracking-tight">Modern Technology</h4>
-                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70 leading-relaxed px-2">Fresh products packaged using cutting-edge technology.</p>
-                </div>
-
-                <div class="feature-card group bg-white p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-1.5 transition-all duration-300 relative overflow-hidden text-center flex flex-col items-center justify-center min-h-[260px]">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-brand-green scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-                    <div class="w-14 h-14 rounded-full bg-brand-gold/10 flex items-center justify-center mb-5 text-brand-gold group-hover:scale-110 transition-transform duration-300">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-                    </div>
-                    <h4 class="font-serif font-bold text-xl text-brand-charcoal mb-3 tracking-tight">Multiple Locations</h4>
-                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70 leading-relaxed px-2">Operations across key sourcing and distribution hubs.</p>
-                </div>
-
-                <div class="feature-card group bg-white p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-1.5 transition-all duration-300 relative overflow-hidden text-center flex flex-col items-center justify-center min-h-[260px]">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-brand-green scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-                    <div class="w-14 h-14 rounded-full bg-brand-gold/10 flex items-center justify-center mb-5 text-brand-gold group-hover:scale-110 transition-transform duration-300">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" /></svg>
-                    </div>
-                    <h4 class="font-serif font-bold text-xl text-brand-charcoal mb-2 tracking-tight">Quality Control</h4>
-                    <span class="inline-block bg-[#fcf9f2] text-brand-gold text-xs font-bold px-3 py-1 rounded-md mb-3 border border-brand-gold/20">ISO 22000</span>
-                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70 leading-relaxed px-2">HACCP approach for checking raw material and manufacturing process.</p>
-                </div>
-
-                <div class="feature-card group bg-white p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-1.5 transition-all duration-300 relative overflow-hidden text-center flex flex-col items-center justify-center min-h-[260px]">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-brand-green scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-                    <div class="w-14 h-14 rounded-full bg-brand-gold/10 flex items-center justify-center mb-5 text-brand-gold group-hover:scale-110 transition-transform duration-300">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                    </div>
-                    <h4 class="font-serif font-bold text-xl text-brand-charcoal mb-3 tracking-tight">Customer Satisfaction</h4>
-                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70 leading-relaxed px-2">Honest, friendly, and respectful after sales support to build long term relationships.</p>
+                    <h3 class="text-sm md:text-xl font-serif font-bold text-[#1A2F24] mb-1 md:mb-3 leading-tight">Global Supply</h3>
+                    <p class="text-[10px] md:text-sm text-gray-500 font-sans leading-snug md:leading-relaxed">Reliable execution and timely deliveries across the world.</p>
                 </div>
 
             </div>
         </div>
     </section>
 
-    <section class="py-24 md:py-32 bg-gray-50 relative overflow-hidden">
+    <section class="py-24 md:py-32 bg-[#FCF8F2] relative overflow-hidden">
         <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 relative">
             
             <div class="text-center mb-20 relative z-10">
@@ -454,7 +422,6 @@
         .businessUnitsSwiper .swiper-wrapper {
             transition-timing-function: linear !important;
         }
-        /* Prevents horizontal scroll on small devices when cards slide in */
         html, body {
             overflow-x: hidden; 
         }
@@ -519,11 +486,7 @@
                 }
             );
 
-            // ==========================================
             // 5. ANIMATED CENTER TIMELINE
-            // ==========================================
-            
-            // Draw the central gold line down the page as the user scrolls
             gsap.to("#timeline-progress", {
                 height: "100%",
                 ease: "none",
@@ -535,21 +498,18 @@
                 }
             });
 
-            // Animate individual nodes, text cards, and images
             const timelineItems = gsap.utils.toArray('.gs-timeline-item');
             
             timelineItems.forEach((item, i) => {
-                const isLeftText = i % 2 === 0; // Even index = Text is on the left, Image is on the right
+                const isLeftText = i % 2 === 0; 
                 const card = item.querySelector('.card-content');
                 const image = item.querySelector('.gs-timeline-image');
                 const node = item.querySelector('.timeline-node');
                 const nodeInner = item.querySelector('.node-inner');
 
-                // Mobile animation always slides from right (50px). Desktop alternates (-50 or 50).
                 const cardXOffset = window.innerWidth < 768 ? 50 : (isLeftText ? -50 : 50);
                 const imageXOffset = window.innerWidth < 768 ? 50 : (isLeftText ? 50 : -50);
 
-                // Animate Text Card sliding in
                 gsap.from(card, {
                     x: cardXOffset,
                     y: 30,
@@ -562,14 +522,13 @@
                     }
                 });
 
-                // Animate Image sliding in from the opposite direction
                 if(image) {
                     gsap.from(image, {
                         x: imageXOffset,
                         y: 30,
                         opacity: 0,
                         duration: 0.8,
-                        delay: 0.2, // Slight delay so the image follows the text slightly
+                        delay: 0.2, 
                         ease: "power3.out",
                         scrollTrigger: {
                             trigger: item,
@@ -578,7 +537,6 @@
                     });
                 }
 
-                // Animate the circular nodes lighting up to Gold when the line hits them
                 ScrollTrigger.create({
                     trigger: item,
                     start: "top center",
@@ -588,7 +546,7 @@
                         nodeInner.classList.remove('bg-gray-200');
                         nodeInner.classList.add('bg-brand-gold');
                     },
-                    onLeaveBack: () => { // Turn back to gray if scrolled up
+                    onLeaveBack: () => { 
                         node.classList.remove('border-brand-gold');
                         node.classList.add('border-gray-200');
                         nodeInner.classList.remove('bg-brand-gold');
