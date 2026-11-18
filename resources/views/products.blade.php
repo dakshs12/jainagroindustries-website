@@ -2,16 +2,16 @@
 
     <div class="w-full overflow-clip bg-[#FCF8F2]">
 
-        <section class="relative w-full min-h-[40vh] md:min-h-[60vh] flex flex-col items-center justify-center bg-[#050505]">
+        <section class="relative w-full flex flex-col items-center justify-start pt-8 md:pt-14 pb-8 md:pb-12 bg-[#050505]">
             
-            <img src="https://images.unsplash.com/photo-1586528116311-ad8ed7c862bd?q=80&w=2000&auto=format&fit=crop" 
+            <img src="{{ asset('images/produce-hero.jpg') }}" 
                  alt="Premium Agricultural Produce" 
-                 class="absolute inset-0 w-full h-full object-cover opacity-30">
+                 class="absolute inset-0 w-full h-full object-cover opacity-35">
             
             <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-transparent pointer-events-none"></div>
-            <div class="absolute -bottom-[2px] left-0 w-full h-32 md:h-64 bg-gradient-to-t from-[#FCF8F2] to-[#FCF8F2]/0 pointer-events-none z-0"></div>
+            <div class="absolute -bottom-[2px] left-0 w-full h-10 md:h-14 bg-gradient-to-t from-[#FCF8F2] to-transparent pointer-events-none z-0"></div>
 
-            <div class="relative z-10 text-center px-4 max-w-4xl mx-auto mt-4 md:mt-10 w-full pt-8 md:pt-0">
+            <div class="relative z-10 text-center px-4 max-w-4xl mx-auto w-full">
                 <div class="inline-flex items-center justify-center gap-2 md:gap-4 mb-4 md:mb-6 opacity-0 translate-y-5" id="hero-subtitle">
                     <div class="w-8 md:w-12 h-[1px] bg-[#D4AF37]"></div>
                     <span class="text-[#D4AF37] uppercase tracking-[0.2em] md:tracking-[0.3em] text-xs md:text-sm font-bold">Premium Quality</span>
@@ -28,10 +28,10 @@
             </div>
         </section>
 
-        <section class="relative w-full py-16 md:py-24 px-4 z-20 bg-[#FCF8F2]">
+        <section class="relative w-full pt-8 md:pt-10 pb-16 md:py-24 px-4 z-20 bg-[#FCF8F2]">
             <div class="max-w-7xl mx-auto">
                 
-                <div class="flex flex-wrap items-center justify-center gap-3 md:gap-6 mb-16 filter-anim opacity-0 translate-y-5">
+                <div class="flex flex-wrap items-center justify-center gap-3 md:gap-6 mb-12 md:mb-16 filter-anim opacity-0 translate-y-5">
                     <button class="px-6 py-2 rounded-full border-2 border-[#1A2F24] bg-[#1A2F24] text-white font-sans font-bold text-sm md:text-base uppercase tracking-wider transition-all hover:shadow-lg">All</button>
                     <button class="px-6 py-2 rounded-full border-2 border-gray-300 bg-transparent text-gray-500 hover:border-[#D4AF37] hover:text-[#D4AF37] font-sans font-bold text-sm md:text-base uppercase tracking-wider transition-all">Pulses</button>
                     <button class="px-6 py-2 rounded-full border-2 border-gray-300 bg-transparent text-gray-500 hover:border-[#D4AF37] hover:text-[#D4AF37] font-sans font-bold text-sm md:text-base uppercase tracking-wider transition-all">Grains</button>

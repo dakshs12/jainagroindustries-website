@@ -2,16 +2,16 @@
 
     <div class="w-full overflow-clip bg-[#050505]">
 
-        <section class="relative w-full min-h-[50vh] md:min-h-[80vh] flex flex-col items-center justify-center bg-[#050505]">
+        <section class="relative w-full min-h-[40vh] md:min-h-[50vh] flex flex-col items-center justify-start pt-8 md:pt-14 pb-12 md:pb-16 bg-[#050505]">
             
             <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2000&auto=format&fit=crop" 
                  alt="Golden Agricultural Fields" 
                  class="absolute inset-0 w-full h-full object-cover opacity-30">
             
             <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-transparent pointer-events-none"></div>
-            <div class="absolute -bottom-[2px] left-0 w-full h-32 md:h-64 bg-gradient-to-t from-[#FCF8F2] to-[#FCF8F2]/0 pointer-events-none z-0"></div>
+            <div class="absolute -bottom-[2px] left-0 w-full h-10 md:h-16 bg-gradient-to-t from-[#FCF8F2] to-transparent pointer-events-none z-0"></div>
 
-            <div class="relative z-10 text-center px-4 max-w-5xl mx-auto mt-4 md:mt-20 w-full pt-8 md:pt-0">
+            <div class="relative z-10 text-center px-4 max-w-5xl mx-auto w-full">
                 <div class="inline-flex items-center justify-center gap-2 md:gap-4 mb-4 md:mb-6 opacity-0 translate-y-5" id="hero-subtitle">
                     <div class="w-8 md:w-12 h-[1px] bg-[#D4AF37]"></div>
                     <span class="text-[#D4AF37] uppercase tracking-[0.2em] md:tracking-[0.3em] text-xs md:text-sm font-bold">Since 1981</span>

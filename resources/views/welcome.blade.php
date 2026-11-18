@@ -1,5 +1,5 @@
 <x-layouts.app>
-    <section class="relative w-full aspect-[4/3] sm:aspect-video md:aspect-auto md:h-[calc(100vh-112px)] flex flex-col items-center justify-center bg-[#111] overflow-hidden">
+    <section class="relative w-full aspect-[4/3] sm:aspect-video md:aspect-auto md:h-[calc(100vh-80px)] lg:h-[calc(100vh-96px)] flex flex-col items-center justify-center bg-[#111] overflow-hidden">
         
         <div class="absolute inset-0 w-full h-full z-0">
             <div class="swiper heroSwiper h-full w-full">
