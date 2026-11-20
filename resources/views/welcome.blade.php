@@ -43,38 +43,44 @@
         </div>
     </section>
 
-    <section class="relative py-24 md:py-32 bg-[#FCF8F2] overflow-hidden">
+    <section class="relative py-24 md:py-32 bg-[#0B1511] overflow-hidden">
         
-        <!-- Background Facility Image -->
+        <!-- Background Facility Image: Crisp, unblurred with balanced cinematic overlay -->
         <div class="absolute inset-0 z-0">
             <img src="{{ asset('images/welcome_bg.png') }}" class="w-full h-full object-cover object-center" alt="Jain Agro Industries Facility">
-            <div class="absolute inset-0 bg-gradient-to-r from-[#FCF8F2]/92 via-[#FCF8F2]/78 to-[#FCF8F2]/88 backdrop-blur-[1px]"></div>
-            <div class="absolute inset-0 bg-gradient-to-b from-[#FCF8F2]/80 via-transparent to-[#FCF8F2]/90"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-black/75 via-black/45 to-black/75"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60"></div>
+            <!-- Smooth bottom transition to next section -->
+            <div class="absolute -bottom-[2px] left-0 right-0 h-16 md:h-24 bg-gradient-to-t from-[#FCF8F2] to-transparent pointer-events-none"></div>
         </div>
 
         <div class="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 xl:px-20">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
 
                 <div class="lg:col-span-7 gs-reveal">
-                    <h2 class="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-brand-charcoal mb-8 tracking-wide leading-tight">
-                        Welcome to <br> <span class="text-brand-gold">Jain Agro Industries</span>
+                    <div class="inline-flex items-center gap-3 mb-4">
+                        <span class="w-10 h-[2px] bg-brand-gold"></span>
+                        <span class="text-brand-gold font-sans uppercase tracking-[0.25em] text-xs font-bold">Since 1981</span>
+                    </div>
+                    <h2 class="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 tracking-wide leading-tight drop-shadow-lg">
+                        Welcome to <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#D4AF37] via-[#F3E5AB] to-[#D4AF37]">Jain Agro Industries</span>
                     </h2>
-                    <p class="font-sans text-xl md:text-2xl text-brand-charcoal leading-relaxed font-light">
+                    <p class="font-sans text-xl md:text-2xl text-gray-100 leading-relaxed font-light drop-shadow">
                         An integrated agri-commodities ecosystem — from farm sourcing and precision sorting to storage and global trade. Built in <span class="font-medium text-brand-gold">Malwa-Nimar</span> since <span class="font-medium text-brand-gold">1981</span>, we combine legacy, technology, and execution to deliver consistent quality to the world.
                     </p>
                 </div>
 
                 <div class="lg:col-span-5 relative gs-reveal-delayed">
-                    <div class="hidden lg:block absolute left-0 top-0 w-1 h-full bg-brand-green/20 rounded-full"></div>
+                    <div class="hidden lg:block absolute left-0 top-0 w-1 h-full bg-brand-gold/60 rounded-full"></div>
                     
                     <div class="lg:pl-10">
-                        <div class="w-16 h-1 bg-brand-green mb-8 rounded-full lg:hidden"></div>
+                        <div class="w-16 h-1 bg-brand-gold mb-8 rounded-full lg:hidden"></div>
                         
-                        <p class="font-sans text-base md:text-lg text-brand-charcoal/80 leading-relaxed mb-6">
-                            Founded by <span class="font-semibold text-brand-charcoal">Shree Rajkumar Bilala</span> in Central India, we began as a humble trading business and have since evolved into a trusted enterprise.
+                        <p class="font-sans text-base md:text-lg text-gray-100 leading-relaxed mb-6 drop-shadow">
+                            Founded by <span class="font-semibold text-white">Shree Rajkumar Bilala</span> in Central India, we began as a humble trading business and have since evolved into a trusted enterprise.
                         </p>
-                        <p class="font-sans text-base md:text-lg text-brand-charcoal/80 leading-relaxed">
-                            We refine grains to premium standards and deliver quality produce from India’s fertile lands to global markets. At Jain Agro Industries, we connect India’s agricultural strength to the world through <span class="font-semibold text-brand-charcoal">quality, precision, and integrated execution</span>.
+                        <p class="font-sans text-base md:text-lg text-gray-200 leading-relaxed drop-shadow">
+                            We refine grains to premium standards and deliver quality produce from India’s fertile lands to global markets. At Jain Agro Industries, we connect India’s agricultural strength to the world through <span class="font-semibold text-white">quality, precision, and integrated execution</span>.
                         </p>
                     </div>
                 </div>
