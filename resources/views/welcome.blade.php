@@ -45,8 +45,11 @@
 
     <section class="relative py-24 md:py-32 bg-[#FCF8F2] overflow-hidden">
         
-        <div class="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
-            <img src="{{ asset('images/main-logo.png') }}" class="w-[80%] md:w-[500px] opacity-[0.03] select-none" alt="">
+        <!-- Background Facility Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="{{ asset('images/welcome_bg.png') }}" class="w-full h-full object-cover object-center" alt="Jain Agro Industries Facility">
+            <div class="absolute inset-0 bg-gradient-to-r from-[#FCF8F2]/92 via-[#FCF8F2]/78 to-[#FCF8F2]/88 backdrop-blur-[1px]"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-[#FCF8F2]/80 via-transparent to-[#FCF8F2]/90"></div>
         </div>
 
         <div class="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 xl:px-20">
