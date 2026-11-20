@@ -174,7 +174,7 @@
                     <div class="w-12 h-12 md:w-16 md:h-16 rounded-full bg-[#D4AF37]/10 flex items-center justify-center mb-4 md:mb-6 text-[#D4AF37] group-hover:scale-110 group-hover:bg-[#D4AF37] group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>
                     </div>
-                    <h3 class="text-base sm:text-lg md:text-xl font-serif font-bold text-[#1A2F24] mb-2 md:mb-3 leading-snug"><span class="text-[#D4AF37]">01.</span> Strategic Malwa–Nimar Procurement Network</h3>
+                    <h3 class="text-base sm:text-lg md:text-xl font-serif font-bold text-[#1A2F24] mb-2 md:mb-3 leading-snug">Strategic Malwa–Nimar Procurement Network</h3>
                     <p class="text-xs sm:text-sm text-gray-600 font-sans leading-relaxed">A dedicated procurement team and strategically located grading plants across key chickpea-producing belts, including Khargone, Dhamnod, Anjad, Sillod and Singhana.</p>
                 </div>
 
@@ -182,7 +182,7 @@
                     <div class="w-12 h-12 md:w-16 md:h-16 rounded-full bg-[#D4AF37]/10 flex items-center justify-center mb-4 md:mb-6 text-[#D4AF37] group-hover:scale-110 group-hover:bg-[#D4AF37] group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" /></svg>
                     </div>
-                    <h3 class="text-base sm:text-lg md:text-xl font-serif font-bold text-[#1A2F24] mb-2 md:mb-3 leading-snug"><span class="text-[#D4AF37]">02.</span> Five Strategic Grading Plants</h3>
+                    <h3 class="text-base sm:text-lg md:text-xl font-serif font-bold text-[#1A2F24] mb-2 md:mb-3 leading-snug">Five Strategic Grading Plants</h3>
                     <p class="text-xs sm:text-sm text-gray-600 font-sans leading-relaxed">Five grading facilities across distinct procurement locations, with a combined processing capacity of <strong class="text-[#1A2F24] font-semibold">700 MT per day</strong>, focused on size uniformity, consistency and premium-quality selection.</p>
                 </div>
 
@@ -190,7 +190,7 @@
                     <div class="w-12 h-12 md:w-16 md:h-16 rounded-full bg-[#D4AF37]/10 flex items-center justify-center mb-4 md:mb-6 text-[#D4AF37] group-hover:scale-110 group-hover:bg-[#D4AF37] group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" /></svg>
                     </div>
-                    <h3 class="text-base sm:text-lg md:text-xl font-serif font-bold text-[#1A2F24] mb-2 md:mb-3 leading-snug"><span class="text-[#D4AF37]">03.</span> Advanced Optical Sortex Processing</h3>
+                    <h3 class="text-base sm:text-lg md:text-xl font-serif font-bold text-[#1A2F24] mb-2 md:mb-3 leading-snug">Advanced Optical Sortex Processing</h3>
                     <p class="text-xs sm:text-sm text-gray-600 font-sans leading-relaxed">A 10-chute Sortex facility equipped with imported advanced technology and a processing capacity of <strong class="text-[#1A2F24] font-semibold">150 MT per day</strong>, delivering precision sorting and superior colour uniformity.</p>
                 </div>
 
@@ -198,7 +198,7 @@
                     <div class="w-12 h-12 md:w-16 md:h-16 rounded-full bg-[#D4AF37]/10 flex items-center justify-center mb-4 md:mb-6 text-[#D4AF37] group-hover:scale-110 group-hover:bg-[#D4AF37] group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819" /></svg>
                     </div>
-                    <h3 class="text-base sm:text-lg md:text-xl font-serif font-bold text-[#1A2F24] mb-2 md:mb-3 leading-snug"><span class="text-[#D4AF37]">04.</span> Integrated Storage Infrastructure</h3>
+                    <h3 class="text-base sm:text-lg md:text-xl font-serif font-bold text-[#1A2F24] mb-2 md:mb-3 leading-snug">Integrated Storage Infrastructure</h3>
                     <p class="text-xs sm:text-sm text-gray-600 font-sans leading-relaxed"><strong class="text-[#1A2F24] font-semibold">30,000 MT of in-house cold storage and 10,000 MT of warehousing capacity</strong>, supporting scientific storage, quality preservation and reliable year-round supply.</p>
                 </div>
 
@@ -206,7 +206,7 @@
                     <div class="w-12 h-12 md:w-16 md:h-16 rounded-full bg-[#D4AF37]/10 flex items-center justify-center mb-4 md:mb-6 text-[#D4AF37] group-hover:scale-110 group-hover:bg-[#D4AF37] group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.948c0-.621-.504-1.125-1.125-1.125H2.25C1.629 5.5 1.125 6.004 1.125 6.625v11c0 .621.504 1.125 1.125 1.125h1.5m10.5-11.25H3.375" /></svg>
                     </div>
-                    <h3 class="text-base sm:text-lg md:text-xl font-serif font-bold text-[#1A2F24] mb-2 md:mb-3 leading-snug"><span class="text-[#D4AF37]">05.</span> Operational Excellence & Dispatch Capability</h3>
+                    <h3 class="text-base sm:text-lg md:text-xl font-serif font-bold text-[#1A2F24] mb-2 md:mb-3 leading-snug">Operational Excellence & Dispatch Capability</h3>
                     <p class="text-xs sm:text-sm text-gray-600 font-sans leading-relaxed">Streamlined operations and dedicated loading and unloading infrastructure, with a maximum dispatch capacity of <strong class="text-[#1A2F24] font-semibold">360 MT per day — equivalent to 15 containers</strong>.</p>
                 </div>
 
@@ -214,7 +214,7 @@
                     <div class="w-12 h-12 md:w-16 md:h-16 rounded-full bg-[#D4AF37]/10 flex items-center justify-center mb-4 md:mb-6 text-[#D4AF37] group-hover:scale-110 group-hover:bg-[#D4AF37] group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg>
                     </div>
-                    <h3 class="text-base sm:text-lg md:text-xl font-serif font-bold text-[#1A2F24] mb-2 md:mb-3 leading-snug"><span class="text-[#D4AF37]">06.</span> International Quality Benchmarks</h3>
+                    <h3 class="text-base sm:text-lg md:text-xl font-serif font-bold text-[#1A2F24] mb-2 md:mb-3 leading-snug">International Quality Benchmarks</h3>
                     <p class="text-xs sm:text-sm text-gray-600 font-sans leading-relaxed">Every container undergoes rigorous quality assessment against defined parameters, supported by testing through leading inspection and laboratory agencies such as <strong class="text-[#1A2F24] font-semibold">SGS and BBQ</strong>.</p>
                 </div>
 
@@ -225,12 +225,21 @@
     <section class="py-24 md:py-32 bg-[#FCF8F2] relative overflow-hidden">
         <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 relative">
             
-            <div class="text-center mb-20 relative z-10">
+            <div class="text-center mb-16 md:mb-20 relative z-10 max-w-3xl mx-auto">
                 <h2 class="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-brand-charcoal mb-4">
                     Our <span class="text-brand-gold">Process</span>
                 </h2>
-                <p class="font-sans text-lg text-brand-charcoal/70 max-w-2xl mx-auto">
-                    From seed to shipment, our integrated execution guarantees quality at every stage.
+                <h3 class="font-serif text-2xl md:text-3xl font-bold text-brand-charcoal mb-2">
+                    From Farm Sourcing to <span class="text-brand-gold">Global Supply</span>
+                </h3>
+                <p class="font-serif italic text-base md:text-lg text-brand-gold font-medium mb-4">
+                    An integrated journey of procurement, precision processing and dependable agricultural supply.
+                </p>
+                <p class="font-sans text-sm md:text-base text-brand-charcoal/75 max-w-2xl mx-auto leading-relaxed mb-4">
+                    At Jain Agro Industries, every stage is driven by a commitment to quality, operational efficiency and consistency. From sourcing across India's finest chickpea-producing belts to preparing commodities for domestic and international markets, we maintain control across the entire journey.
+                </p>
+                <p class="font-serif font-bold text-base md:text-lg text-brand-charcoal">
+                    Because Every Grain Has a Story.
                 </p>
             </div>
 
@@ -240,6 +249,7 @@
                 
                 <div id="timeline-progress" class="absolute left-[38px] md:left-1/2 top-0 w-1 bg-brand-gold transform md:-translate-x-1/2 rounded-full h-0 origin-top z-10"></div>
 
+                {{-- 1. PROCUREMENT --}}
                 <div class="timeline-item relative flex flex-col md:flex-row items-stretch justify-between mb-16 md:mb-24 w-full gs-timeline-item pl-24 md:pl-0">
                     
                     <div class="md:hidden absolute left-[24px] w-8 h-8 rounded-full bg-white border-4 border-gray-200 flex items-center justify-center mt-[30px] z-20 timeline-node transition-colors duration-500">
@@ -248,7 +258,7 @@
 
                     <div class="w-full md:w-[45%] md:pl-12 order-1 md:order-3 gs-timeline-image flex flex-col justify-center">
                         <div class="relative w-full h-56 md:h-[400px] rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-gray-100 group">
-                            <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=800&auto=format&fit=crop" alt="Procurement and Warehouse" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                            <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=800&auto=format&fit=crop" alt="Procurement" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         </div>
                     </div>
 
@@ -262,27 +272,25 @@
 
                             <div class="flex items-center gap-4 mb-6 pb-4 border-b border-gray-100">
                                 <span class="w-10 h-10 rounded-full bg-brand-gold/10 text-brand-gold flex items-center justify-center font-bold text-lg font-serif">1</span>
-                                <h3 class="font-serif text-2xl font-bold text-brand-charcoal">Procurement & Storage</h3>
+                                <h3 class="font-serif text-2xl font-bold text-brand-charcoal">Procurement</h3>
                             </div>
 
-                            <div class="space-y-5">
+                            <div class="space-y-4">
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Raw Material Procurement</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Sourcing high-quality pulses from trusted farmers and suppliers across India.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Sourcing premium Kabuli Chana through our established Malwa–Nimar procurement network.</p>
                                 </div>
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Storage System</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Advanced storage facilities with controlled temperature and humidity for optimal preservation.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Building strong sourcing connections across <strong class="text-brand-charcoal font-semibold">Anjad, Singhana–Bikangaon, Sillod, Dhamnod, Khargone and Badnagar</strong>.</p>
                                 </div>
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Fumigation</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Safe pest control measures to ensure product integrity and safety.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Selecting raw produce with a focus on grain size, appearance and quality.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                {{-- 2. INITIAL PROCESSING --}}
                 <div class="timeline-item relative flex flex-col md:flex-row items-stretch justify-between mb-16 md:mb-24 w-full gs-timeline-item pl-24 md:pl-0">
                     
                     <div class="md:hidden absolute left-[24px] w-8 h-8 rounded-full bg-white border-4 border-gray-200 flex items-center justify-center mt-[30px] z-20 timeline-node transition-colors duration-500">
@@ -308,24 +316,22 @@
                                 <h3 class="font-serif text-2xl font-bold text-brand-charcoal">Initial Processing</h3>
                             </div>
 
-                            <div class="space-y-5">
+                            <div class="space-y-4">
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Pre-cleaning</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Removal of dust, stones, and foreign materials from raw pulses.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Removing stones and heavy impurities through advanced destoning systems.</p>
                                 </div>
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Cleaning and Grading</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Sorting pulses by size, quality, and appearance standards.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Eliminating metallic contaminants through precision magnetic separation.</p>
                                 </div>
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Drying</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Optimal moisture reduction for better processing and longer shelf life.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Separating hollow and lightweight grains through gravity-based cleaning.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                {{-- 3. CORE PROCESSING — GRADING --}}
                 <div class="timeline-item relative flex flex-col md:flex-row items-stretch justify-between mb-16 md:mb-24 w-full gs-timeline-item pl-24 md:pl-0">
                     
                     <div class="md:hidden absolute left-[24px] w-8 h-8 rounded-full bg-white border-4 border-gray-200 flex items-center justify-center mt-[30px] z-20 timeline-node transition-colors duration-500">
@@ -334,7 +340,7 @@
 
                     <div class="w-full md:w-[45%] md:pl-12 order-1 md:order-3 gs-timeline-image flex flex-col justify-center">
                         <div class="relative w-full h-56 md:h-[400px] rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-gray-100 group">
-                            <img src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?q=80&w=800&auto=format&fit=crop" alt="Core Processing" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                            <img src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?q=80&w=800&auto=format&fit=crop" alt="Core Processing — Grading" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         </div>
                     </div>
 
@@ -348,27 +354,25 @@
 
                             <div class="flex items-center gap-4 mb-6 pb-4 border-b border-gray-100">
                                 <span class="w-10 h-10 rounded-full bg-brand-gold/10 text-brand-gold flex items-center justify-center font-bold text-lg font-serif">3</span>
-                                <h3 class="font-serif text-2xl font-bold text-brand-charcoal">Core Processing</h3>
+                                <h3 class="font-serif text-2xl font-bold text-brand-charcoal">Core Processing — Grading</h3>
                             </div>
 
-                            <div class="space-y-5">
+                            <div class="space-y-4">
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Dehusking</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Removing outer shells while preserving the nutritional value of pulses.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed"><strong class="text-brand-charcoal font-semibold">700 MT per day processing capacity</strong> across our integrated operations.</p>
                                 </div>
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Tempering</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Controlled moisture treatment for optimal splitting and processing.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Precision grading into uniform sizes using internationally recognised US count standards.</p>
                                 </div>
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Splitting</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Precision cutting to create uniform dal pieces for consistent cooking.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Segregating multiple size grades to meet diverse buyer specifications.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                {{-- 4. SORTEX PROCESSING --}}
                 <div class="timeline-item relative flex flex-col md:flex-row items-stretch justify-between mb-16 md:mb-24 w-full gs-timeline-item pl-24 md:pl-0">
                     
                     <div class="md:hidden absolute left-[24px] w-8 h-8 rounded-full bg-white border-4 border-gray-200 flex items-center justify-center mt-[30px] z-20 timeline-node transition-colors duration-500">
@@ -377,7 +381,7 @@
 
                     <div class="w-full md:w-[45%] md:pr-12 order-1 md:order-1 gs-timeline-image flex flex-col justify-center">
                         <div class="relative w-full h-56 md:h-[400px] rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-gray-100 group">
-                            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=800&auto=format&fit=crop" alt="Quality Assurance" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                            <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop" alt="Sortex Processing" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         </div>
                     </div>
 
@@ -391,28 +395,26 @@
 
                             <div class="flex items-center gap-4 mb-6 pb-4 border-b border-gray-100">
                                 <span class="w-10 h-10 rounded-full bg-brand-gold/10 text-brand-gold flex items-center justify-center font-bold text-lg font-serif">4</span>
-                                <h3 class="font-serif text-2xl font-bold text-brand-charcoal">Quality Assurance</h3>
+                                <h3 class="font-serif text-2xl font-bold text-brand-charcoal">Sortex Processing</h3>
                             </div>
 
-                            <div class="space-y-5">
+                            <div class="space-y-4">
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Color Sorting</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Advanced optical sorting to ensure consistent color and appearance.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Advanced optical sorting technology identifies unwanted discoloured grains.</p>
                                 </div>
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Final Cleaning</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Thorough cleaning to remove any remaining impurities or debris.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Removing reddish, blackish and other visually defective particles with precision.</p>
                                 </div>
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Quality Check</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Rigorous testing for moisture, protein content, and food safety standards.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Enhancing colour uniformity for a cleaner, more consistent appearance.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="timeline-item relative flex flex-col md:flex-row items-stretch justify-between mb-16 md:mb-0 w-full gs-timeline-item pl-24 md:pl-0">
+                {{-- 5. QUALITY ASSURANCE --}}
+                <div class="timeline-item relative flex flex-col md:flex-row items-stretch justify-between mb-16 md:mb-24 w-full gs-timeline-item pl-24 md:pl-0">
                     
                     <div class="md:hidden absolute left-[24px] w-8 h-8 rounded-full bg-white border-4 border-gray-200 flex items-center justify-center mt-[30px] z-20 timeline-node transition-colors duration-500">
                         <span class="w-2.5 h-2.5 rounded-full bg-gray-200 node-inner transition-colors duration-500"></span>
@@ -420,7 +422,7 @@
 
                     <div class="w-full md:w-[45%] md:pl-12 order-1 md:order-3 gs-timeline-image flex flex-col justify-center">
                         <div class="relative w-full h-56 md:h-[400px] rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-gray-100 group">
-                            <img src="https://images.unsplash.com/photo-1580674285054-bed31e145f59?q=80&w=800&auto=format&fit=crop" alt="Packaging and Dispatch" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=800&auto=format&fit=crop" alt="Quality Assurance" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         </div>
                     </div>
 
@@ -434,27 +436,72 @@
 
                             <div class="flex items-center gap-4 mb-6 pb-4 border-b border-gray-100">
                                 <span class="w-10 h-10 rounded-full bg-brand-gold/10 text-brand-gold flex items-center justify-center font-bold text-lg font-serif">5</span>
-                                <h3 class="font-serif text-2xl font-bold text-brand-charcoal">Packaging & Dispatch</h3>
+                                <h3 class="font-serif text-2xl font-bold text-brand-charcoal">Quality Assurance</h3>
                             </div>
 
-                            <div class="space-y-5">
+                            <div class="space-y-4">
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Secure Packaging</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Food-grade packaging that maintains freshness and extends shelf life.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Independent laboratory testing through reputed agencies, including <strong class="text-brand-charcoal font-semibold">SGS, BBQ and others</strong>.</p>
                                 </div>
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Quality Verification</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Final inspection and certification before dispatch to customers.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Evaluating moisture, defect percentage, grain count and foreign matter.</p>
                                 </div>
                                 <div class="border-l-2 border-brand-green pl-4">
-                                    <h4 class="font-bold text-brand-gold mb-1">Global Dispatch</h4>
-                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/70">Efficient logistics network ensuring timely delivery worldwide.</p>
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Maintaining quality checks to ensure consistency across every processed lot.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                {{-- 6. PACKAGING & DISPATCH --}}
+                <div class="timeline-item relative flex flex-col md:flex-row items-stretch justify-between mb-16 md:mb-0 w-full gs-timeline-item pl-24 md:pl-0">
+                    
+                    <div class="md:hidden absolute left-[24px] w-8 h-8 rounded-full bg-white border-4 border-gray-200 flex items-center justify-center mt-[30px] z-20 timeline-node transition-colors duration-500">
+                        <span class="w-2.5 h-2.5 rounded-full bg-gray-200 node-inner transition-colors duration-500"></span>
+                    </div>
+
+                    <div class="w-full md:w-[45%] md:pr-12 order-1 md:order-1 gs-timeline-image flex flex-col justify-center">
+                        <div class="relative w-full h-56 md:h-[400px] rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-gray-100 group">
+                            <img src="https://images.unsplash.com/photo-1580674285054-bed31e145f59?q=80&w=800&auto=format&fit=crop" alt="Packaging & Dispatch" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                        </div>
+                    </div>
+
+                    <div class="hidden md:flex absolute left-1/2 w-12 h-12 rounded-full bg-white border-4 border-gray-200 items-center justify-center transform -translate-x-1/2 z-20 timeline-node transition-colors duration-500">
+                        <span class="w-4 h-4 rounded-full bg-gray-200 node-inner transition-colors duration-500"></span>
+                    </div>
+
+                    <div class="w-full md:w-[45%] md:pl-12 order-2 md:order-3 mt-6 md:mt-0 flex flex-col justify-center">
+                        <div class="bg-white p-8 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 relative text-left card-content h-full flex flex-col justify-center">
+                            <div class="hidden md:block absolute top-1/2 -left-3 w-6 h-6 bg-white border-b border-l border-gray-100 transform -translate-y-1/2 rotate-45"></div>
+
+                            <div class="flex items-center gap-4 mb-6 pb-4 border-b border-gray-100">
+                                <span class="w-10 h-10 rounded-full bg-brand-gold/10 text-brand-gold flex items-center justify-center font-bold text-lg font-serif">6</span>
+                                <h3 class="font-serif text-2xl font-bold text-brand-charcoal">Packaging & Dispatch</h3>
+                            </div>
+
+                            <div class="space-y-4">
+                                <div class="border-l-2 border-brand-green pl-4">
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Offering PP bags, customised packaging and private-label solutions as per buyer requirements.</p>
+                                </div>
+                                <div class="border-l-2 border-brand-green pl-4">
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Facilitating efficient bulk loading and dispatch through established logistics channels.</p>
+                                </div>
+                                <div class="border-l-2 border-brand-green pl-4">
+                                    <p class="font-sans text-[15px] font-medium text-brand-charcoal/80 leading-relaxed">Connecting domestic and international buyers through our integrated supply network.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-16 md:mt-24 text-center relative z-10 max-w-3xl mx-auto px-4">
+                <div class="w-16 h-0.5 bg-brand-gold/40 mx-auto mb-6"></div>
+                <p class="font-serif italic text-lg md:text-xl text-brand-charcoal font-medium leading-relaxed">
+                    &ldquo;From the fields of Malwa–Nimar to markets across the world &mdash; every grain carries our commitment to quality.&rdquo;
+                </p>
             </div>
         </div>
     </section>
