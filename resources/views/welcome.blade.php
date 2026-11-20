@@ -258,7 +258,7 @@
 
                     <div class="w-full md:w-[45%] md:pl-12 order-1 md:order-3 gs-timeline-image flex flex-col justify-center">
                         <div class="relative w-full h-56 md:h-[400px] rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-gray-100 group">
-                            <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=800&auto=format&fit=crop" alt="Procurement" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                            <img src="{{ asset('images/procurement.png') }}" alt="Procurement" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         </div>
                     </div>
 
@@ -381,7 +381,7 @@
 
                     <div class="w-full md:w-[45%] md:pr-12 order-1 md:order-1 gs-timeline-image flex flex-col justify-center">
                         <div class="relative w-full h-56 md:h-[400px] rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-gray-100 group">
-                            <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop" alt="Sortex Processing" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                            <img src="{{ asset('images/sortex_processing.png') }}" alt="Sortex Processing" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         </div>
                     </div>
 
