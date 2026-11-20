@@ -36,7 +36,7 @@
                     
                     <div class="w-full lg:w-1/2 relative px-4 md:px-8 lg:px-0 founder-img-anim opacity-0 translate-y-10">
                         <div class="absolute -top-4 -left-0 md:-top-8 md:-left-4 w-3/4 h-[90%] border border-[#D4AF37]/50 bg-[#D4AF37]/10 rounded-2xl z-0"></div>
-                        <img src="{{ asset('images/founders.jpg') }}" alt="Founders of Jain Agro Industries" class="relative z-10 w-full h-auto object-cover rounded-xl shadow-[0_20px_50px_rgba(0,0,0,0.15)]">
+                        <img src="{{ asset('images/founders.png') }}" alt="Founders of Jain Agro Industries" class="relative z-10 w-full h-auto object-cover rounded-xl shadow-[0_20px_50px_rgba(0,0,0,0.15)]">
                     </div>
 
                     <div class="w-full lg:w-1/2 flex flex-col justify-center founder-text-anim opacity-0 translate-y-10">
