@@ -55,33 +55,65 @@
         </div>
 
         <div class="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 xl:px-20">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
 
+                <!-- Left Column: Headlines, Legacy callout, first paragraph & Desktop CTA -->
                 <div class="lg:col-span-7 gs-reveal">
                     <div class="inline-flex items-center gap-3 mb-4">
                         <span class="w-10 h-[2px] bg-brand-gold"></span>
-                        <span class="text-brand-gold font-sans uppercase tracking-[0.25em] text-xs font-bold">Since 1981</span>
+                        <span class="text-brand-gold font-sans uppercase tracking-[0.25em] text-xs font-bold">JAIN AGRO INDUSTRIES</span>
                     </div>
-                    <h2 class="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 tracking-wide leading-tight drop-shadow-lg">
-                        Welcome to <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#D4AF37] via-[#F3E5AB] to-[#D4AF37]">Jain Agro Industries</span>
+
+                    <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 tracking-wide leading-tight drop-shadow-lg">
+                        Rooted in Trust. <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#D4AF37] via-[#F3E5AB] to-[#D4AF37]">
+                            Driven by Precision <br class="sm:hidden">Since 1981.
+                        </span>
                     </h2>
-                    <p class="font-sans text-xl md:text-2xl text-gray-100 leading-relaxed font-light drop-shadow">
-                        An integrated agri-commodities ecosystem — from farm sourcing and precision sorting to storage and global trade. Built in <span class="font-medium text-brand-gold">Malwa-Nimar</span> since <span class="font-medium text-brand-gold">1981</span>, we combine legacy, technology, and execution to deliver consistent quality to the world.
+
+                    <p class="font-serif text-lg sm:text-xl text-[#F3E5AB] italic mb-6 leading-relaxed drop-shadow">
+                        The Legacy of Jain Traders, Badnagar. The Foundation of Jain Agro Industries.
                     </p>
+
+                    <p class="font-sans text-base sm:text-lg text-gray-200 leading-relaxed font-light mb-8 drop-shadow">
+                        Built on the longstanding market presence of Jain Traders, Badnagar, Jain Agro Industries brings together generations of agricultural trading expertise and an expanding portfolio of businesses.
+                    </p>
+
+                    <!-- Desktop button (balances the left column height) -->
+                    <div class="hidden lg:block pt-2">
+                        <a href="/about" class="inline-flex items-center gap-3 bg-brand-green hover:bg-brand-gold text-white px-7 py-3.5 rounded-lg font-sans font-semibold tracking-wider text-sm uppercase transition-all duration-300 shadow-xl hover:shadow-brand-gold/25 hover:scale-[1.02] group">
+                            <span>Explore Our Story</span>
+                            <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1.5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
 
+                <!-- Right Column: Agricultural commodities trade & international ambition -->
                 <div class="lg:col-span-5 relative gs-reveal-delayed">
                     <div class="hidden lg:block absolute left-0 top-0 w-1 h-full bg-brand-gold/60 rounded-full"></div>
                     
-                    <div class="lg:pl-10">
-                        <div class="w-16 h-1 bg-brand-gold mb-8 rounded-full lg:hidden"></div>
+                    <div class="lg:pl-10 space-y-6">
+                        <div class="w-16 h-1 bg-brand-gold mb-6 rounded-full lg:hidden"></div>
                         
-                        <p class="font-sans text-base md:text-lg text-gray-100 leading-relaxed mb-6 drop-shadow">
-                            Founded by <span class="font-semibold text-white">Shree Rajkumar Bilala</span> in Central India, we began as a humble trading business and have since evolved into a trusted enterprise.
+                        <p class="font-sans text-base sm:text-lg text-gray-100 leading-relaxed drop-shadow">
+                            A prominent stockist of agricultural commodities, with <span class="font-semibold text-white">Kabuli Chana</span> at the heart of our trade, we combine established market relationships and strategic sourcing with large-scale stocking, procurement, processing and storage capabilities.
                         </p>
-                        <p class="font-sans text-base md:text-lg text-gray-200 leading-relaxed drop-shadow">
-                            We refine grains to premium standards and deliver quality produce from India’s fertile lands to global markets. At Jain Agro Industries, we connect India’s agricultural strength to the world through <span class="font-semibold text-white">quality, precision, and integrated execution</span>.
+
+                        <p class="font-sans text-base sm:text-lg text-gray-200 leading-relaxed drop-shadow">
+                            From our roots in <span class="text-brand-gold font-medium">Badnagar</span> to our growing ambitions in international markets, we continue to build on a legacy defined by <span class="font-semibold text-white">trust, market understanding and an unwavering commitment to quality</span>.
                         </p>
+
+                        <!-- Mobile button (positioned after all paragraphs) -->
+                        <div class="lg:hidden pt-4">
+                            <a href="/about" class="inline-flex items-center justify-center w-full sm:w-auto gap-3 bg-brand-green hover:bg-brand-gold text-white px-7 py-3.5 rounded-lg font-sans font-semibold tracking-wider text-sm uppercase transition-all duration-300 shadow-xl hover:shadow-brand-gold/25 group">
+                                <span>Explore Our Story</span>
+                                <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1.5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
