@@ -18,9 +18,9 @@
                     <div class="w-8 md:w-12 h-[1px] bg-[#D4AF37]"></div>
                 </div>
                 
-                <h1 class="text-[2.25rem] leading-[1.1] sm:text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white mb-4 md:mb-6 opacity-0 translate-y-5 drop-shadow-lg" id="hero-title">
-                    Cultivating Trust. <br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#D4AF37] to-[#F3E5AB]">Exporting Excellence.</span>
+                <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-white mb-4 md:mb-6 opacity-0 translate-y-5 drop-shadow-lg leading-tight" id="hero-title">
+                    Four Decades. One Lasting Commitment. <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#D4AF37] to-[#F3E5AB]">A Vision Beyond Borders.</span>
                 </h1>
                 
                 <p class="text-gray-300 text-sm md:text-xl font-sans max-w-3xl mx-auto font-light leading-relaxed opacity-0 translate-y-5 px-2" id="hero-text">
@@ -42,19 +42,23 @@
                     <div class="w-full lg:w-1/2 flex flex-col justify-center founder-text-anim opacity-0 translate-y-10">
                         <div class="flex items-center gap-4 mb-4">
                             <div class="w-12 h-[1px] bg-[#D4AF37]"></div>
-                            <span class="text-[#D4AF37] uppercase tracking-widest text-xs md:text-sm font-bold">Our Foundation</span>
+                            <span class="text-[#D4AF37] uppercase tracking-widest text-xs md:text-sm font-bold">About Jain Agro Industries</span>
                         </div>
                         
-                        <h2 class="text-3xl md:text-5xl font-serif text-[#1A2F24] font-bold mb-6 leading-tight">
-                            A Legacy Built <br> <span class="italic font-light text-[#D4AF37]">on Trust.</span>
+                        <h2 class="text-xl sm:text-2xl md:text-3xl font-serif text-[#1A2F24] font-bold mb-6 leading-snug">
+                            Our story is not simply about the growth of a business. It is about the evolution of an ambition &mdash; from a small beginning in Badnagar to an integrated agricultural enterprise built across trading, procurement, processing, storage and international trade.
                         </h2>
                         
-                        <p class="text-gray-600 font-sans text-base md:text-lg leading-relaxed mb-6">
-                            Founded in 1981 by Shree Rajkumar Bilala in the heart of Central India, Jain Agro Industries began with a simple yet profound vision: uncompromised quality.
+                        <p class="text-gray-600 font-sans text-base md:text-[17px] leading-relaxed mb-5">
+                            Founded in 1981 by Shree Rajkumar Bilala, Jain Traders began with very small quantities. What started as a modest trading venture grew through generations of commitment, market understanding and a willingness to build beyond the limits of conventional trading.
                         </p>
                         
-                        <p class="text-gray-600 font-sans text-base md:text-lg leading-relaxed">
-                            Over four decades, we have evolved from a humble trading business into a trusted global agri-commodities ecosystem. Today, we refine premium grains and deliver the finest produce from India's fertile lands to international markets, connecting our rich agricultural heritage with the world through precision, integrity, and integrated execution.
+                        <p class="text-gray-600 font-sans text-base md:text-[17px] leading-relaxed mb-5">
+                            Today, built on the strong foundation of Jain Traders, Jain Agro Industries brings together a diverse portfolio of business concerns under one unified identity &mdash; integrating agricultural sourcing, processing, trading and storage to connect India's agricultural strength with the evolving demands of domestic and international markets.
+                        </p>
+
+                        <p class="text-[#1A2F24] font-sans text-base md:text-[17px] font-bold leading-relaxed border-l-2 border-[#D4AF37] pl-4">
+                            We have grown from trading commodities to building the infrastructure, relationships and capabilities that move them forward.
                         </p>
                     </div>
                     
